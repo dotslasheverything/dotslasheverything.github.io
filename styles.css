@@ -1,0 +1,30 @@
+header a h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+header div div h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+header a.navbar-brand img{
+    border-radius: 55px;
+    box-shadow: 0 0 0 1.5px black;
+}
+@media screen and (min-width: 600px){
+    header h1{
+        font-size: 5em;
+    }
+}
+@media screen and (max-width: 768px){
+    header h1{
+        font-size: 4em;
+    }
+}
+@media screen and (max-width: 500px){
+    header h1{
+        font-size: 3em;
+    }
+}
+@media screen and (max-width: 400px){
+    header h1{
+        font-size: 2.4em;
+    }
+}
