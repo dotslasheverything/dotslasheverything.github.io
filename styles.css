@@ -8,6 +8,26 @@ header a.navbar-brand img{
     border-radius: 55px;
     box-shadow: 0 0 0 1.5px black;
 }
+main h2{
+    border-bottom: 1.5px solid #aabeff;
+    background-color: #aabeff;
+    border-radius: 15px;
+}
+main div div div.card{
+    border-color: #000000;
+    box-shadow: 1px 1px #b6b6b6;
+    box-sizing: border-box;
+}
+main div div div.card img{
+    border-bottom: 1px solid #000000;
+    border-radius: inherit;
+    box-shadow: 1px 1px #000000;
+}
+main div div div.card:hover{
+    position: relative;
+    left: 2px;
+    bottom: 2px;
+}
 @media screen and (min-width: 600px){
     header h1{
         font-size: 5em;
