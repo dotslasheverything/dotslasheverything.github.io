@@ -1,4 +1,4 @@
-header a h2{
+header nav a h2{
     font-family: 'Courier New', Courier, monospace;
 }
 header div div h1{
@@ -29,6 +29,16 @@ main div div div.card:hover{
     left: 2px;
     bottom: 2px;
 }
+@media screen and (min-width: 767px) and (max-width: 950px){
+    header nav div div a{
+        padding:0 !important;
+        margin: 0 !important;
+    }
+    header nav div div a{
+        padding:0 !important;
+        margin: 0 !important;
+    }
+}
 @media screen and (min-width: 600px){
     header h1{
         font-size: 5em;
@@ -37,6 +47,9 @@ main div div div.card:hover{
 @media screen and (max-width: 768px){
     header h1{
         font-size: 4em;
+    }
+    header h2{
+        font-size: 1.35em;
     }
 }
 @media screen and (max-width: 500px){
