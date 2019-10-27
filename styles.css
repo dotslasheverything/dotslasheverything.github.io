@@ -17,6 +17,7 @@ main div div div.card{
     border-color: #000000;
     box-shadow: 1px 1px #b6b6b6;
     box-sizing: border-box;
+    max-width: 17rem;
 }
 main div div div.card img{
     border-bottom: 1px solid #000000;
