@@ -8,10 +8,21 @@ header a.navbar-brand img{
     border-radius: 55px;
     box-shadow: 0 0 0 1.5px black;
 }
-main h2{
-    border-bottom: 1.5px solid #aabeff;
-    background-color: #aabeff;
+main h2.index{
+    border-bottom: 1.5px solid #90a2df;
+    background-color: #90a2df;
     border-radius: 15px;
+}
+main ul li a{
+    font-size: 1.125em;
+}
+.nav-pills .nav-item .nav-link:not(.active) {
+    background-color: #abbeff;
+    color: #383737;
+}
+main div.art{
+    border-bottom: 1.5px solid darkblue;
+    border-radius: 25px;
 }
 main div div div.card{
     border-color: #000000;
