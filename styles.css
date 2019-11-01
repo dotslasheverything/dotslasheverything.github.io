@@ -13,16 +13,21 @@ main h2.index{
     background-color: #90a2df;
     border-radius: 15px;
 }
+main .art{
+    background-color: white;
+    position: sticky;
+    top: 80px;
+    z-index: 1;
+    border: 1.5px solid darkblue;
+    border-radius: 50px;
+}
 main ul li a{
     font-size: 1.125em;
 }
 .nav-pills .nav-item .nav-link:not(.active) {
     background-color: #abbeff;
     color: #383737;
-}
-main div.art{
-    border-bottom: 1.5px solid darkblue;
-    border-radius: 25px;
+    border: 1.5px solid #90a2df;
 }
 main div div div.card{
     border-color: #000000;
