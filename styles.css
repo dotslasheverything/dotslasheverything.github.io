@@ -1,6 +1,5 @@
 html body{
     background-color: #EFEFEC;
-    ;
 }
 header nav a h2{
     font-family: 'Courier New', Courier, monospace;
@@ -11,9 +10,6 @@ header div div h1{
 main h2.index{
     background-color: #93A4AF;
     border-radius: 15px;
-}
-main ul li a{
-    font-size: 1.125em;
 }
 .nav-pills .nav-item .nav-link:not(.active) {
     background-color: #50c5a4;
