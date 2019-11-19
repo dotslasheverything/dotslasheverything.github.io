@@ -9,22 +9,32 @@
 
 <url>
   <loc>https://dotslasheverything.github.io/</loc>
-  <lastmod>2019-11-14T17:08:02+00:00</lastmod>
+  <lastmod>2019-11-19T14:17:13+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://dotslasheverything.github.io/index.html</loc>
-  <lastmod>2019-11-14T17:08:02+00:00</lastmod>
+  <lastmod>2019-11-19T14:17:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dotslasheverything.github.io/articles.html</loc>
-  <lastmod>2019-11-14T17:08:02+00:00</lastmod>
+  <lastmod>2019-11-19T14:17:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dotslasheverything.github.io/about.html</loc>
-  <lastmod>2019-11-14T17:08:02+00:00</lastmod>
+  <lastmod>2019-11-19T14:17:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dotslasheverything.github.io/post1.html</loc>
+  <lastmod>2019-11-19T14:17:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dotslasheverything.github.io/post2.html</loc>
+  <lastmod>2019-11-19T14:17:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
