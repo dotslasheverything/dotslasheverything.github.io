@@ -16,35 +16,30 @@ main h2.index{
     color: #383737;
     border: 1.5px solid #1e362f;
 }
-.content{
-  margin-right: 20%;
-  margin-left: 4%;
-  padding: 0 2%;
-  border-right: 1.5px solid lightgray;
+main div.navigation,.sticky{
+    position: sticky;
+    top: 8.73%;
+    background-color: #FFFFFF;
 }
-.sidebar{
-  position: fixed;
-  z-index: 1;
-  top: 30%;
-  right: 8%;
-  padding: 10px;
-  background-color: #222429a6;
+main div.navigation,.sticky ul li a{
+    color: #2A415D;
 }
-.sidebar ul{
-    list-style-type: none;
-    padding-left: 0px;
-    border-radius: 5px;
+main div div.post div.card-body img{
+    max-width: 8%;
 }
-.sidebar ul li{
-    display: block;
-    padding-bottom: 5px 0;
-    margin: 5px 0;
+main div div.post div.card-body p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.25em;
 }
-.sidebar ul a{
-    color: #3B404F;
-    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.35em;
-    border-bottom: 1.5px solid black;
+footer{
+    background-color: #191919;
+}
+footer a{
+    color: #FFFFFF;
+}
+footer a:hover{
+    text-decoration: none;
+    color: #BDBDBD;
 }
 @media screen and (min-width: 767px) and (max-width: 950px){
     header nav div div a{
