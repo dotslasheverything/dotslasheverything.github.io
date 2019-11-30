@@ -4,21 +4,54 @@ html body{
 header nav a h2{
     font-family: 'Courier New', Courier, monospace;
 }
-header div div h1{
+header div div h2{
     font-family: 'Courier New', Courier, monospace;
 }
-main h2.index{
+.pagetitle h2{
+    font-size: 3.5em;
+}
+.sectiontitle h2{
     background-color: #93A4AF;
-    border-radius: 15px;
+    padding: 5px;
+    border: solid 2px #93A4AF;
+    border-radius: 5px;
+    font-size: 1.75em;
+}
+.index .card,.articles .card{
+    max-width: 205px;
+}
+.index .card-title,.articles .card-title{
+    font-size: 21px;
+}
+.index .card-text,.articles .card-text{
+    font-size: 13px;
+}
+.u-container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width:1000px;
+}
+article.post p{
+    font-size: 18px;
+}
+.postnav .nav-link{
+    font-size: 1.25em;
+}
+
+.post-text{
+    font-size: 1.155em;
+}
+.about-text{
+    font-size: 1.25em;
 }
 .nav-pills .nav-item .nav-link:not(.active) {
     background-color: #50c5a4;
     color: #383737;
     border: 1.5px solid #1e362f;
 }
-main div.navigation,.sticky{
+.sticky{
     position: sticky;
-    top: 8.73%;
+    top: 8.7%;
     background-color: #FFFFFF;
 }
 main div.navigation,.sticky ul li a{
